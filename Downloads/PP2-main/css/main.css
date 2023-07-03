@@ -1,0 +1,169 @@
+/* body */
+body {
+    /* background-color: #fbfbfb !important; */
+    background-color: #f8f6f6 !important;
+    
+}
+/* footer */
+footer {
+    background: #b1acfb !important;
+    border-top: 1px solid #0004ff;
+}
+.logoImg{
+    border-radius: 15px 15px 15px 15px;
+}
+.navItem:hover{
+    border-bottom: 2px solid #0004ff;
+}
+/* Carrusel */
+#carouselContainer {
+    display: flex;
+    max-height: 500px;
+}
+
+.nosotrosBordes {
+    border: 1px solid #0004ff;
+    border-radius: 20px;
+}
+
+.mb-4 {
+    margin-bottom: 1.5rem; /* Ajusta el valor según tu preferencia */
+}
+
+
+
+
+.btnProduct{
+    background-color: #b1acfb !important; 
+    border: none !important; 
+}
+.btnProduct:hover{
+    background-color: #0004ff !important;
+}
+.subrayados {
+    border-bottom: 2px solid #0004ff;
+
+}
+
+
+.navbarMain {
+    background-color: #0004ff !important;
+    font-weight: bold !important;
+}
+
+
+/* Footer */
+
+
+/* Formulario de contacto y reclamos */
+
+.contenedor-formulario {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 40%;
+}
+
+#hablemos {
+    text-align: center;
+}
+
+.formulario {
+    border: 1px solid #0004ff;
+    background-color:#fff;
+    padding: 20px;
+    border-radius: 20px;
+    margin-bottom: 30px;
+}
+.submit {
+    background-color: #b1acfb!important;
+    border: none !important;
+    font-weight: bold !important;
+}
+.submit:hover{
+    background-color: #0004ff !important;
+}
+/* Prueba zoom IMAGEN */
+.zoom-image {
+    position: relative;
+    overflow: hidden;
+}
+
+.zoom-image img {
+    transition: transform 0.3s ease;
+}
+
+.zoom-image:hover img {
+    transform: scale(1.2);
+}
+
+.zoom-icon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 24px;
+    color: #fff;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    cursor: pointer;
+}
+
+.zoom-image:hover .zoom-icon {
+    opacity: 1;
+}
+
+.zoom-btn {
+    display: none;
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 9999;
+    background-color: #b1acfb !important;
+    border: none !important;
+    
+}
+.zoom-btn:hover{
+background-color: #0004ff !important;
+font-weight: bold !important;
+}
+
+
+/* prueba */
+.navbarMain {
+    transition: background-color 0.3s ease;
+}
+
+.navbarMain.scrolled {
+    background-color: #f8f9fa;
+}
+
+.navItem {
+    transition: color 0.3s ease;
+}
+
+.navItem:hover,
+.navItem:focus {
+    color: #6c757d;
+}
+
+#whoWeAreSection,
+#productSection,
+#contactSection {
+    margin-top: 50px;
+    padding: 20px;
+    background-color: #f8f9fa;
+    text-align: center;
+}
+
+/* footer scroleo */
+footer {
+    background-color: #f8f9fa;
+    text-align: center;
+    padding: 20px;
+    transition: background-color 0.3s ease;
+}
+
+footer.scrolled {
+    background-color: #e9ecef;
+}

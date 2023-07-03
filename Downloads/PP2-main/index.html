@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BBALL Shoes STORE</title>
+    <!-- Icono de pestaña -->
+    <link rel="shortcut icon" href="assets/BBALLOGO.png">
+    <!-- css -->
+    <link rel="stylesheet" href="./css/main.css">
+    <!-- bootstrap CSS-->
+    <link rel="stylesheet" href="bootstrap-5.2.3-dist/css/bootstrap.min.css">
+    <!-- Bootstrap JS -->
+    <script src="bootstrap-5.2.3-dist/js/bootstrap.min.js"></script>
+    <!-- js -->
+    <script src="js/main.js"></script>
+</head>
+
+<body>
+    <header>
+        <!-- barra de navegación principal -->
+        <nav class="navbar navbar-expand-lg bg-light navbarMain">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html">
+                    <img class= "logoImg"src="assets/BBALLOGO.png" alt="LOGO STORE" width="80" height="60">
+                    BBALL SHOES STORE</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-link navItem" href="./index.html">Inicio</a>
+                        <a class="nav-link navItem" href="#whoWeAreSection">Quienes somos?</a>
+                        <a class="nav-link navItem" href="#productSection">Productos</a>
+                        <a class="nav-link navItem" href=" #contactSection">Contacto</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <!-- Carrusel -->
+        <div id="demo" class="carousel slide" data-bs-ride="carousel">
+            <!-- Indicators/dots -->
+            <div id="indicatorsContainer" class="carousel-indicators">
+                <button id="buttonCarousel" type="button" data-bs-target="#demo" data-bs-slide-to="0"
+                    class="active"></button>
+                <button id="buttonCarousel" type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+                <button id="buttonCarousel" type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+            </div>
+
+            <!-- Devin Booker -->
+            <div id="carouselContainer" class="carousel-inner">
+                <!-- Primera Burger -->
+                <div class="carousel-item active">
+                    <img src="assets/DevinBooker.jpeg" alt="DevinBooker" class="d-block w-100 h-100">
+                </div>
+                <!-- LJ -->
+                <div class="carousel-item">
+                    <img src="assets/LebronJames.png" alt="Lebron James" class="d-block w-100 h-100">
+                </div>
+
+                <!-- NJokic -->
+                <div class="carousel-item">
+                    <img src="assets/Jokic.jpg" alt="Nikola Jokic" class="d-block w-100 h-100">
+                </div>
+            </div>
+            <!-- izq y derecha flechas/iconos -->
+            <button id="buttonContainer" class="carousel-control-prev" type="button" data-bs-target="#demo"
+                data-bs-slide="prev">
+                <span id="spanContainer" class="carousel-control-prev-icon"></span>
+            </button>
+            <button id="buttonContainer" class="carousel-control-next" type="button" data-bs-target="#demo"
+                data-bs-slide="next">
+                <span id="spanContainer" class="carousel-control-next-icon"></span>
+            </button>
+        </div>
+        <!-- Sección nosotros -->
+        <div class="m-5">
+            <section id="whoWeAreSection" class="row p-2">
+                <div class="col-12 align-content-center p-3">
+                    <h3 class="text-center subrayados">Quienes somos?</h3>
+                </div>
+                <div class="col-12 align-content-center nosotrosBordes p-4">
+                    <p id="parrafo" class="text-justify m-0">Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                        Aut pariatur vero cupiditate, officiis repudiandae alias aspernatur illum, deserunt aliquam
+                        optio est iure incidunt. Accusantium animi repellat recusandae placeat, neque aperiam, debitis
+                        laudantium eveniet nesciunt a commodi dignissimos excepturi cum doloribus quis laboriosam. Optio
+                        reiciendis architecto distinctio eius ratione corporis maxime illo, adipisci, aliquid explicabo
+                        assumenda odio culpa iure fugit, omnis ad nostrum aspernatur illum laboriosam dolorum? Mollitia
+                        sed quasi corporis, deserunt vero obcaecati rerum accusantium voluptatem. In commodi nulla
+                        blanditiis beatae, autem eveniet dolore rem, aliquid, provident odit eos animi dicta sed
+                        voluptate! Porro aut, similique at in labore laborum est accusamus unde amet? Nisi temporibus ut
+                        dignissimos consequuntur repellendus, quasi nesciunt reiciendis delectus ipsam cupiditate? Neque
+                        aut maiores accusamus est. Rerum quo illo cupiditate excepturi in laboriosam dolor, et saepe
+                        voluptate quis ab voluptatem aspernatur obcaecati quidem consectetur blanditiis minus eaque nemo
+                        quam? Labore saepe ut repellat recusandae sed vero numquam nesciunt porro libero aperiam
+                        praesentium mollitia dolorum tenetur quae asperiores, consequuntur ipsam animi adipisci eveniet.
+                        Provident reiciendis dolorem ut iste, atque nesciunt ab similique! Error, eos ducimus, placeat
+                        nihil voluptas asperiores vero culpa officia maxime veniam, velit blanditiis libero suscipit
+                        veritatis! Rerum accusamus tenetur voluptate vitae dicta quos.</p>
+                </div>
+            </section>
+            <section id="productSection">
+                <div class="col-12 align-content-center p-3">
+                    <h3 class="text-center subrayados">Productos</h3>
+                </div>
+                <div class="container">
+                    <div class="row mb-4">
+                        <!-- zapa 1 -->
+                        <div class="col-md-4">
+                            <div class="card">
+                                <div class="zoom-image">
+                                    <img src="img/Adidas-Pro-Next-web-5.png" class="card-img-top" alt="AdidasProNext"
+                                        onclick="expandImage(this)">
+                                    <span class="zoom-icon">&#128269;</span>
+                                </div>
+
+                                <div class="card-body">
+                                    <h5 class="card-title">Adidas Pro Next</h5>
+                                    <button class="btn btn-primary btnProduct" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapse1" aria-expanded="false" aria-controls="collapse1">
+                                        Detalles
+                                    </button>
+                                    <div class="collapse" id="collapse1">
+                                        <div class="card card-body">
+                                            <p>Descoloca al rival durante todo el partido. Esta zapatilla de baloncesto
+                                                adidas te permite moverte con rapidez y comodidad gracias a su
+                                                mediasuela ligera Bounce que aporta mayor amortiguación a tu pisada.
+                                                Roba el balón y deslízate entre la defensa rival en canchas de asfalto o
+                                                pabellones cubiertos.</p>
+                                            <ul>
+                                                <li>Cierre de cordones</li>
+                                                <li>Parte superior textil con inserciones de malla</li>
+                                                <li>Diseño acolchado</li>
+                                                <li>Forro textil</li>
+                                                <li>Mediasuela Bounce</li>
+                                                <li>Suela de goma</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- zapa 2 -->
+                        <div class="col-md-4">
+                            <div class="card">
+                                <div class="zoom-image">
+                                    <img src="img/Nike-Precision-6-.png" class="card-img-top" alt="NikePrecision6"
+                                        onclick="expandImage(this)">
+                                    <span class="zoom-icon">&#128269;</span>
+                                </div>
+                                <div class="card-body">
+                                    <h5 class="card-title">Nike Precision 6 Black Gold</h5>
+                                    <button class="btn btn-primary btnProduct" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapse2" aria-expanded="false" aria-controls="collapse2">
+                                        Detalles
+                                    </button>
+                                    <div class="collapse" id="collapse2">
+                                        <div class="card card-body">
+                                            <p>Crea espacio, para en seco y dribla. Hazlo todo con el Nike Precision 6.
+                                                Está diseñado para que los jugadores más rápidos puedan cambiar de
+                                                velocidad y de dirección mientras mantienen el control. Desde el cuello
+                                                y la lengüeta acolchados hasta la tracción modificada de la espiguilla,
+                                                el perfil bajo ágil te permite aprovechar al máximo tus habilidades
+                                                mientras dominas el ritmo del juego.
+
+                                                Color que se muestra: Negro/Oro metalizado</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- zapa 3 -->
+                        <div class="col-md-4">
+                            <div class="card">
+                                <div class="zoom-image">
+                                    <img src="img/Nike-Giannis-Immortality-2-web.png" class="card-img-top "
+                                        alt="GiannisImortality" onclick="expandImage(this)">
+                                    <span class="zoom-icon">&#128269;</span>
+                                </div>
+                                <div class="card-body">
+                                    <h5 class="card-title">Nike Immortality 2 Glaciar blue</h5>
+                                    <button class="btn btn-primary btnProduct" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapse3" aria-expanded="false" aria-controls="collapse3">
+                                        Detalles
+                                    </button>
+                                    <div class="collapse" id="collapse3">
+                                        <div class="card card-body">
+                                            <p>Mantente atemporal con el Giannis Immortality 2. El paquete de espuma
+                                                acolchada combinado con un ajuste más concentrado en el mediopié en un
+                                                diseño superligero te permite mantener un alto nivel de intensidad y
+                                                concentración cuando la victoria pende de un hilo, al igual que Giannis
+                                                en los momentos más decisivos.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Zapa 4 -->
+                        <div class="col-md-4">
+                            <div class="card">
+                                <div class="zoom-image">
+                                    <img src="img/Nike-Kyrie-Infinity-Web.png" class="card-img-top" alt="KyrieInfinity"
+                                        onclick="expandImage(this)">
+                                    <span class="zoom-icon">&#128269;</span>
+                                </div>
+                                <div class="card-body">
+                                    <h5 class="card-title">Nike Kyrie Infinity</h5>
+                                    <button class="btn btn-primary btnProduct" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapse4" aria-expanded="false" aria-controls="collapse4">
+                                        Detalles
+                                    </button>
+                                    <div class="collapse" id="collapse4">
+                                        <div class="card card-body">
+                                            <p>
+                                                <strong>ATACA CON CONTROL.</strong>
+
+
+                                                Kyrie puede aumentar la velocidad o cambiar de dirección a medida que
+                                                disminuye la intensidad. Su capacidad de controlar sus movimientos
+                                                mantiene a los defensores en alerta y a él en control. El Kyrie Infinity
+                                                proporciona un ajuste ceñido y personalizado, y mejora la capacidad de
+                                                respuesta en el antepié y la tracción en los laterales. Esto permite que
+                                                los jugadores aceleren y desaceleren como deseen y aprovechen la
+                                                separación que se crea.
+
+                                                Sensación conectada
+
+                                                A Kyrie le gusta que su calzado se sienta ceñido y personalizado, como
+                                                un guante de boxeo. Las bandas internas dinámicas se muestran en la
+                                                parte superior y las agujetas pasan por ellas. El ajuste de las agujetas
+                                                estira las bandas hacia abajo para crear un ajuste muy cómodo, ceñido y
+                                                conectado.
+
+                                                Desbloquea tu energía
+
+                                                El sistema de amortiguación de tres capas actualizado utiliza una unidad
+                                                Air Zoom en la parte delantera del pie, intercalada entre una plantilla
+                                                moldeada y espuma suave. Menos espuma y menos capas mejoran la sensación
+                                                de la cancha y abren el potencial de devolución de energía del Zoom.
+
+                                                Corte con control
+
+                                                La suela vanguardista y multidireccional está diseñada teniendo en
+                                                cuenta cómo son los cortes y golpes de Kyrie en la cancha, lo que
+                                                proporciona tracción precisamente donde se necesita. La goma de agarre
+                                                envuelve los lados, especialmente en el interior del talón y la punta,
+                                                para que mantengas el control cuando te agachas y cambias de dirección.
+                                            </p>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- zapa 5 -->
+                        <div class="col-md-4">
+                            <div class="card">
+                                <div class="zoom-image">
+                                    <img src="img/Nike-Fly-By-Mid-2-gris-web.png" class="card-img-top" alt="FlyByMid3"
+                                        onclick="expandImage(this)">
+                                    <span class="zoom-icon">&#128269;</span>
+                                </div>
+                                <div class="card-body">
+                                    <h5 class="card-title">Nike Fly By Mid 3</h5>
+                                    <button class="btn btn-primary btnProduct" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapse5" aria-expanded="false" aria-controls="collapse5">
+                                        Detalles
+                                    </button>
+                                    <div class="collapse" id="collapse5">
+                                        <div class="card card-body">
+                                            <p>Salta a la cancha con estilo con el nuevo Fly.By Mid 3 de Nike, que
+                                                cuenta con una entresuela de espuma suave que absorbe los golpes.
+                                            </p>
+                                            <ul>
+                                                <li>Zapatilla de baloncesto de caña media para hombre.</li>
+                                                <li>Parte superior de malla.</li>
+                                                <li>Superposiciones sintéticas.</li>
+                                                <li>Swoosh en los costados.</li>
+                                                <li>Lengüeta acolchada con la marca Nike.</li>
+                                                <li>Sistema de cordones tradicional.</li>
+                                                <li>Cuello de tobillo acolchado.</li>
+                                                <li>Entresuela de espuma para mayor comodidad.</li>
+                                                <li>Suela de goma para tracción.</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- zapa 6 -->
+                        <div class="col-md-4">
+                            <div class="card">
+                                <div class="zoom-image">
+                                    <img src="img/zapatillas-de-basquet-nike-renew-elevate-3.png" class="card-img-top"
+                                        alt="RenewElevate3" onclick="expandImage(this)">
+                                    <span class="zoom-icon">&#128269;</span>
+                                </div>
+                                <div class="card-body">
+                                    <h5 class="card-title">Nike Renew Elevate 3</h5>
+                                    <button class="btn btn-primary btnProduct" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapse6" aria-expanded="false" aria-controls="collapse6">
+                                        Detalles
+                                    </button>
+                                    <div class="collapse" id="collapse6">
+                                        <div class="card card-body">
+                                            <p>Las zapatillas de básquet Renew Elevate 3 mejoran tu juego en ambos
+                                                extremos de la cancha. Estas zapatillas están especialmente diseñadas
+                                                para jugadores versátiles que se mueven tanto en la posición de ataque
+                                                como en la de defensa y te ayudarán a mejorar tus capacidades de juego
+                                                con sujeción y estabilidad durante toda la temporada.
+
+                                                La tracción y la sujeción en el puente del pie mejoradas permiten hacer
+                                                cortes y giros con mayor seguridad, lo que puede marcar la diferencia en
+                                                los últimos minutos del partido.
+
+                                                Cada vez que penetres en la pintura y tomes tu salto de potencia, los
+                                                rivales podrán ver la Red Alert de las suelas traccionadas de tus Renew
+                                                Elevate 3.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+                    </div>
+
+                </div>
+                <button id="zoomBtn" class="btn btn-primary zoom-btn"
+                    onclick="shrinkImage(document.querySelector('.zoom-image img'))">Quitar Zoom
+                </button>
+            </section>
+        </div>
+        <div class="container-fluid">
+
+            <!-- Formulario -->
+
+            <section name="contactSection" id="contactSection" class="container-fluid contenedor-formulario">
+                <form class="row formulario" action="https://formsubmit.co/guillefce096@gmail.com" method="POST"
+                    onsubmit="enviarFormulario()">
+                    <div class="col">
+                        <div>
+                            <h4>¡Hablemos!</h4>
+                        </div>
+
+                        <div>
+                            <legend>
+                                <h5>¿Tenés dudas, consultas, reclamos o sugerencias? Contactanos.</h5>
+                            </legend>
+                        </div>
+
+                        <div>
+                            <label>Nombre:</label><br>
+                            <input type="text" class="input-formulario form-control" placeholder="Escriba su nombre"
+                                name="name" required><br>
+
+                        </div>
+
+                        <div>
+                            <label>E-mail:</label><br>
+                            <input type="mail" class="input-formulario form-control"
+                                placeholder="Ejemplo: Usuario@correo.com" name="mail" required><br>
+                        </div>
+
+                        <div>
+                            <label>Asunto:</label><br>
+                            <input type="text" class="input-formulario form-control"
+                                placeholder="¿Por qué nos contactas?" name="subject" required><br>
+                        </div>
+
+                        <div>
+                            <label>Mensaje:</label><br>
+                            <textarea type="message" class="input-formulario form-control"
+                                placeholder="Escribenos un mensaje" name="comments" required></textarea><br>
+                        </div>
+
+                        <div>
+                            <button type="submit" class="submit form-control formButton"
+                                onclick="enviarFormulario()">Enviar</button>
+                        </div>
+
+                    </div>
+
+                </form>
+
+            </section>
+
+            <!-- Fin del formulario -->
+        </div>
+    </main>
+</body>
+<footer class="py-3">
+    <ul class="nav justify-content-center pb-3 mb-3">
+        <li class="nav-item"><a href="index.html" class="nav-link px-2 text-muted">Inicio</a></li>
+        <li class="nav-item"><a href="#whoWeAreSection" class="nav-link px-2 text-muted">Nosotros</a></li>
+        <li class="nav-item"><a href="#productSection" class="nav-link px-2 text-muted">Productos</a></li>
+        <li class="nav-item"><a href="#contactSection" class="nav-link px-2 text-muted">Contacto</a></li>
+        <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Programación 1</a></li>
+    </ul>
+</footer>
+
+</html>
